@@ -1,0 +1,50 @@
+.footer-wrapper{
+    position: relative;
+    margin-top: -1.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    padding-top: 0rem;
+}
+
+.footer-wrapper hr{
+    width: 100%;
+}
+
+.footer-wrapper .social-icons{
+    margin-top: 6.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.footer-wrapper .social-icons > a > img {
+    width: 2rem;
+}
+
+.footer-wrapper .social-icons + div > img{
+    margin-top: 3.7rem;
+    margin-bottom: 4.5rem;
+    width: 10rem;
+}
+
+.footer-blur-1{
+    background: orange;
+    filter: blur(200px);
+    left: 15%;
+    bottom: 0rem;
+    width: 26rem;
+    height: 12rem;
+}
+
+.footer-blur-2{
+    background: red;
+    filter: blur(200px);
+    right: 15%;
+    bottom: 0rem;
+    width: 26rem;
+    height: 12rem;
+}

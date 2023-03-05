@@ -1,0 +1,91 @@
+.programs-wrapper > div:nth-child(1){
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+    color: white;
+    margin-top: 2rem;
+}
+
+.programs-wrapper .programs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem 2rem;
+    color: white;
+    margin-top: 1rem;
+}
+
+.programs-wrapper .programs .program-lists{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: .9rem;
+    background-color: #808080;
+    padding: 2rem;
+    width: 15rem;
+}
+
+.program-lists:hover{
+    background: var(--planCard);
+    cursor: pointer;
+}
+
+.programs-wrapper .programs .program-lists > span:nth-child(1) > svg {
+    fill: white;
+    width: 2rem;
+    height: 2rem;
+}
+
+.programs-wrapper .programs .program-lists > span:nth-child(2){
+    font-weight: bold;
+}
+
+.programs-wrapper .programs .program-lists > span:nth-child(3){
+    font-size: .9rem;
+    line-height: 1.6rem;
+}
+
+.programs-wrapper .programs .program-lists > div{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.programs-wrapper .programs .program-lists > div > img{
+    width: 1rem;
+    height: .9rem;
+}
+
+@media screen and (max-width: 768px){
+    
+    .programs-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: -35rem;
+    }
+
+    .programs-wrapper > div:nth-child(1){
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 1.5rem;
+        font-size: 2rem;
+    }
+
+    .programs-wrapper .programs{
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+        
+}
